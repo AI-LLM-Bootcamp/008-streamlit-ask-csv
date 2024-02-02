@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAI
 from langchain.document_loaders.csv_loader import CSVLoader
-langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import os
